@@ -1,1 +1,1 @@
-# Agentic_AI_Based_Text_To_Image_Generator
+This project is based on the text to image generator
