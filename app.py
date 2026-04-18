@@ -6,7 +6,7 @@ st.title("🖼️ Text to Image Generator")
 
 @st.cache_resource
 def load_model():
-    model_id = "baidu/ERNIE-Image"
+    model_id = "unsloth/ERNIE-Image-Turbo-GGUF"
 
     pipe = StableDiffusionPipeline.from_pretrained(
         model_id,
